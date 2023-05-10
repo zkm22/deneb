@@ -1,8 +1,3 @@
-import 'package:deneb/widgets/center.dart';
-import 'package:deneb/widgets/column.dart';
-import 'package:deneb/widgets/container.dart';
-import 'package:deneb/widgets/sized_box.dart';
-import 'package:deneb/widgets/text.dart';
 import 'package:flutter/widgets.dart';
 
 // typedef WidgetFunction = Widget Function();
@@ -113,8 +108,7 @@ class BaseDeneb {
 
 }
 
-class Deneb extends BaseDeneb with
-  DenebContainer, DenebColumn, DenebText, DenebSizedBox, DenebCenter {}
+class Deneb extends BaseDeneb {}
 
 class DenebChild extends Deneb {
 
